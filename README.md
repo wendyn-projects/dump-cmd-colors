@@ -10,14 +10,14 @@ This script goes through registry of `cmd` _containing terminal colors_ to print
 
 ## Parameters
 
-### Format <String>
+### Format \<String\>
 ```
     Specifies which format should be used to print individual values.
     `hex`       - `abcdef`
     `HEX`       - `ABCDEF`
     `csv`/`CSV` - `171, 205, 239`
 ```
-### Padded [<SwitchParameter>]
+### Padded [\<SwitchParameter\>]
 ```
     If format contains separators then the components will be aligned with padding.
     Example:
@@ -26,14 +26,14 @@ This script goes through registry of `cmd` _containing terminal colors_ to print
     `255,  24,  16`
 ```
 
-### Colored [<SwitchParameter>]
+### Colored [\<SwitchParameter\>]
 ```
     Use corresponding terminal colors to print the values.
     Darker colors will have light background.
     Note that this parameter uses `Write-Host` method, so in this case the call can't be used with
     `ForEach-Object`.
 ```
-### NoBackground [<SwitchParameter>]
+### NoBackground [\<SwitchParameter\>]
 ```
     Colors will not be printed with any background.
 ```
