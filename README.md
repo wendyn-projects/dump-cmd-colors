@@ -71,8 +71,8 @@ Note that `-Colored` parameter uses `Write-Host` method, so in this case it can'
 
 
 ## Extra Notes
-To see the examples, type: "get-help .\Dump_CMD_Colors.ps1 -Examples".
+To see the examples, type: `Get-Help .\Dump_CMD_Colors.ps1 -Examples`.
 
-For more information, type: "get-help .\Dump_CMD_Colors.ps1 -Detailed".
+For more information, type: `Get-Help .\Dump_CMD_Colors.ps1 -Detailed`.
 
-For technical information, type: "get-help .\Dump_CMD_Colors.ps1 -Full".
+For technical information, type: `Get-Help .\Dump_CMD_Colors.ps1 -Full`.
