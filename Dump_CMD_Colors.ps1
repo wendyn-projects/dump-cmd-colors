@@ -2,7 +2,7 @@
 .Synopsis
 This script prints colors used by `cmd`.
 .Description
-Finds registry for `cmd` containing its colors and prints their value in user-readable format.
+This script goes through registry of cmd containing terminal colors to print their value in user-readable format.
 .Parameter Format
 Specifies which format should be used to print individual values.
 `hex`       - `abcdef`
