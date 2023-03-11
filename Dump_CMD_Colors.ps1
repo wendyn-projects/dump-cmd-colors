@@ -38,6 +38,8 @@ rgb(  0, 255,   0)
 .\Dump_CMD_Colors hex -Colored
 # Prints all the values in hexadecimal format where each value has corresponding terminal color.
 # Note that `-Colored` parameter uses `Write-Host` method, so in this case it can't be used with `ForEach-Object`.
+.LINK
+https://github.com/wendyn-projects/dump-cmd-colors - Homepage
 #> 
 
 param(
