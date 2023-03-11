@@ -77,6 +77,7 @@ function Get-ColorFormatter {
 
 function Write-ConsoleColor {
     param([Int32]$Value, [Int32]$Index)
+    $Value = (($Value -shl 0x10) -band 0xFF0000) -bor (($Value) -band 0x00FF00) -bor (($Value -shr 0x10) -band 0x0000FF);
     $Formatter = Get-ColorFormatter;
     if ($Colored) {
         if ($NoBackground) {
